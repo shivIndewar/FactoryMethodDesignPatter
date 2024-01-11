@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Employees">
       <EntityTypeMapping TypeName="EmployeePortalModel.Employee">
         <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="ComputerDetails" ColumnName="ComputerDetails" />
           <ScalarProperty Name="MedicalAllowance" ColumnName="MedicalAllowance" />
           <ScalarProperty Name="HouseAllowance" ColumnName="HouseAllowance" />
           <ScalarProperty Name="Id" ColumnName="Id" />
